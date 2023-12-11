@@ -1,0 +1,99 @@
+body{
+    background-color: #4B8B99;
+}
+main{
+    background-color: #97a0a2;
+    width: 990px;
+    height: 1300px;
+    margin: auto;
+    font-family: arial;
+}
+/*CABEÇALHO DA PAGINA*/
+#cabecalho{
+    border: 1px solid  #2C5159;
+    color: #2C5159;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    
+}
+.menu{
+    background-color: #2C5159;
+    border: 1px solid #2C5159;
+    text-transform: uppercase;
+      
+    
+}
+ul.menu-inicial, .nao{
+    list-style: none;
+
+}
+ul.menu-inicial li{
+    display:inline-block;
+    padding: 4px 20px 4px 20px;
+    margin: 0px auto 0px auto;
+    
+}
+ul.menu-inicial a{
+    padding: 16px 12px;
+    color: white;
+    text-decoration: none;
+    
+}
+ul.menu-inicial a:hover{
+    background-color: #4B8B99;
+    color: rgb(216, 210, 210);
+    text-decoration:underline;
+    
+}
+/* SECTION*/
+
+.comunicacao{
+    border: 1px solid #2C5159;
+    
+}
+h3, h4{
+    color: #2C5159;
+    text-indent: 36px;
+    text-decoration: underline;
+}
+.paragrafo{
+    text-align: justify;
+    text-indent: 20px;
+    margin: 0px 16px 0px 16px;
+}
+.redes-sociais{
+    margin: 0px 0px 8px 32px;
+    padding: 2px;
+}
+.logo{
+    padding: 8px;
+}
+ul.nao a{
+    color: rgb(25, 56, 114);
+}
+ul.nao a:hover{
+    text-decoration: underline;
+    color: rgb(89, 134, 186);
+}
+/**/
+.imagem{
+    border-right: 2px solid #2C5159;
+    width: 400px;
+    height:400;
+}
+.conteudo-relacional{
+    position: relative;
+    width: 585px;
+    right: -400px;
+    top: -400px;
+    border-left: 2px solid #2C5159;
+}
+#rodape{
+    background-color:#313435;
+    color:#9abdc4;
+    position: absolute;
+    bottom: -590px;
+    width: auto; 
+    display: inline-block;   
+}
